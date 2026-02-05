@@ -1,23 +1,22 @@
-body.dark-theme {
-  background-color: #111;
-  color: #eee;
+body.light-theme {
+  background-color: #f9f9f9;
+  color: #333;
   font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
 }
 
 header {
-  background: #222;
+  background: #fff;
+  border-bottom: 2px solid #eee;
   padding: 20px;
   text-align: center;
-  position: relative;
-  overflow: hidden;
+  animation: fadeInDown 1.5s ease;
 }
 
 header h1 {
-  color: #f5c518; /* золотой акцент */
+  color: #1a3d6f; /* строгий синий */
   margin: 0;
-  animation: fadeInDown 2s ease;
 }
 
 nav ul {
@@ -29,14 +28,14 @@ nav ul {
 }
 
 nav ul li a {
-  color: #eee;
+  color: #333;
   text-decoration: none;
   transition: color 0.3s;
 }
 
 nav ul li a:hover,
 nav ul li a.active {
-  color: #f5c518;
+  color: #f5c518; /* золотой акцент */
 }
 
 section {
@@ -45,8 +44,8 @@ section {
 }
 
 .service-card {
-  background: #1c1c1c;
-  border: 1px solid #333;
+  background: #fff;
+  border: 1px solid #ddd;
   padding: 20px;
   margin: 15px auto;
   max-width: 600px;
@@ -56,21 +55,4 @@ section {
 
 .service-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 0 15px rgba(245, 197, 24, 0.5);
-}
-
-.btn {
-  display: inline-block;
-  background: #f5c518;
-  color: #111;
-  padding: 15px 30px;
-  margin: 10px;
-  border-radius: 5px;
-  text-decoration: none;
-  transition: background 0.3s;
-}
-
-.btn:hover {
-  background: #d4a017;
-}
-
+  box-shadow: 0 0 15px rgba(26, 61, 

@@ -1,0 +1,76 @@
+body.dark-theme {
+  background-color: #111;
+  color: #eee;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #222;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+header h1 {
+  color: #f5c518; /* золотой акцент */
+  margin: 0;
+  animation: fadeInDown 2s ease;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+}
+
+nav ul li a {
+  color: #eee;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  color: #f5c518;
+}
+
+section {
+  padding: 40px;
+  text-align: center;
+}
+
+.service-card {
+  background: #1c1c1c;
+  border: 1px solid #333;
+  padding: 20px;
+  margin: 15px auto;
+  max-width: 600px;
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(245, 197, 24, 0.5);
+}
+
+.btn {
+  display: inline-block;
+  background: #f5c518;
+  color: #111;
+  padding: 15px 30px;
+  margin: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #d4a017;
+}
+
